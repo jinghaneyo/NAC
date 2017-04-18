@@ -1,4 +1,3 @@
-#include "stdafx.h"
 #include "NAC_Scheduler.h"
 #include <chrono>
 #include <thread>
@@ -16,7 +15,6 @@ NAC_Scheduler::~NAC_Scheduler()
 
 void NAC_Scheduler::Start(__in bool bWait)
 {
-	// jingtest 10개는 일단 테스트용 
 	m_ThreadPool.Start(10);
 
 	std::thread thr([this]

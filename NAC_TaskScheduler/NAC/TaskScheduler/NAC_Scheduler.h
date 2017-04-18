@@ -9,9 +9,7 @@
 #include <vector>
 #include <mutex>
 #include <ctime>
-#include "NAC/Thread/NAC_ThreadPool_Task.h"
-
-
+#include "../Thread/NAC_ThreadPool_Task.h"
 
 ///> @brief : it made for controlling user function by setting time.
 ///> @class : NAC_Scheduler
