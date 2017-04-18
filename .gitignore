@@ -27,3 +27,4 @@
 *.exe
 *.out
 *.app
+/NAC_TaskScheduler/NAC_TaskScheduler/Debug/NAC_Task.B9D5DB66.tlog/*.tlog
